@@ -5,8 +5,11 @@ function App() {
     <div className="App">
       <h1>Title of the page</h1>
     
-      <div className="SearchBar"></div>
+      <div className="SearchBar">
       <button className="Search">Search</button>
+      
+      </div>
+      
       <div className="SearchResults"></div>
       <div className="Playlist"></div>
       <div className="Tracklist"></div>
