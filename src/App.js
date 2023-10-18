@@ -1,4 +1,5 @@
 import './App.css';
+import trackList from './Tracklist';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       </div>
       
       <div className="SearchResults"></div>
+      <div className="TrackList"><h3>{trackList()}</h3></div>
       <div className="Playlist"></div>
-      <div className="Tracklist"></div>
       <div className="Track"></div>
       <button className="SaveToSpotify">Save To Spotify</button>
 

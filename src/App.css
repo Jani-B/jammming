@@ -21,3 +21,25 @@
   height: 30rem;
   background-color: darkblue;
 }
+
+.TrackList {
+  margin: 2rem 5rem;
+  width: 30%;
+  background-color: darkblue;
+  text-align: left;
+  color: white;
+}
+
+.TrackList div {
+  padding: 1rem;
+}
+
+.TrackList h2 {
+  margin: 0;
+}
+
+.TrackList p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1rem;
+}
