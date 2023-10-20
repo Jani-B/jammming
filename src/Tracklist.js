@@ -17,7 +17,7 @@ const trackList = () => {
                 Object.keys(muckSpotify.songs).map((propKey) => {
                     return ( 
                         <>
-                    <h2 key={propKey} class={propKey}>{muckSpotify.songs[propKey].artist}</h2>
+                    <h2 key={propKey} className={propKey}>{muckSpotify.songs[propKey].artist}</h2>
                     <p key={"p" + propKey}>{muckSpotify.songs[propKey].title}</p>
                     </>
                     )
