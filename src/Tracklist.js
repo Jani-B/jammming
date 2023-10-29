@@ -1,5 +1,17 @@
 import muckSpotify from './Spotify';
 
+const searchList = () => {
+    const artistArray = [];
+    const titleArray = [];
+
+    for (let i=0; i < muckSpotify.songs.length; i++){
+        artistArray.push(muckSpotify.songs[i].artist);
+        titleArray.push(muckSpotify.songs[i].title);
+    }
+
+    return artistArray;
+    
+}
 
 const trackList = () => {
     const SpotifyArtistArray = [];
@@ -30,5 +42,5 @@ const trackList = () => {
        );
     
 }
-
+//export default searchList;
 export default trackList;

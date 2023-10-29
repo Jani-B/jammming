@@ -1,15 +1,48 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.App h1 {
+  flex: 100%;
 }
 
 .SearchBar {
-  background-color: gray;
-  width: 100%;
-  height: 6rem;
+  flex: 100%;
+  padding: 2rem;
 }
+
 
 .SearchBar input {
   margin: 1rem;
+
+}
+
+.inputDiv {
+  margin-bottom: 1rem;
+  padding: 2rem;
+  background-color: gray;
+  flex: 100%;
+}
+
+.artistPar {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.results {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(145, 11, 150);
+  padding: 2rem;
+  flex: 30%;
+}
+
+.results li {
+  list-style-type: none;
 }
 
 .SearchResults {
@@ -44,7 +77,7 @@
 
 .TrackList {
   margin: 2rem 5rem;
-  width: 30%;
+  flex: 30%;
   background-color: darkblue;
   text-align: left;
   color: white;

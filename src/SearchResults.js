@@ -1,16 +1,15 @@
-import React, { useState, useEffect } from "react";
-import muckSpotify from './Spotify';
-import trackList from './Tracklist'
-import SearchInput from './SearchBar'
+import React from "react";
 
-const SearchResults = () => {
-    const [searchResults, setSearchResults] = useState(trackList)
-    const [input, setInput] = useState('test');
 
+
+
+const SearchResults = ({results}) => {
+    
     return (
         <>
-        <p id="searchValue"></p>
-        <p>{searchResults}</p>
+        <div className="results">
+        <div>{results.map(item => <li className={`artist ${item.id}`} key={`artist ${item.id}`}><p className="artistPar">{item.artist}</p> <p className="titlePar">{item.title}</p></li>)}</div>
+        </div>
         </>
         
     )
