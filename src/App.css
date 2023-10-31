@@ -45,6 +45,15 @@
   list-style-type: none;
 }
 
+.resultsDiv :hover {
+  background-color: rgb(108, 4, 111);
+  cursor: pointer;
+}
+
+.tracksDiv :hover{
+  background-color: rgb(108, 4, 111);
+}
+
 .SearchResults {
   margin: 2rem 5rem;
   width: 30%;
@@ -75,6 +84,26 @@
   background-color: darkblue;
 }
 
+.tracks {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  flex: 30%;
+  background-color: darkblue;
+  text-align: center;
+  color: white;
+}
+
+.tracks p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+.tracks li {
+  list-style-type: none;
+}
+
 .TrackList {
   margin: 2rem 5rem;
   flex: 30%;
@@ -97,3 +126,24 @@
   padding-bottom: 1rem;
 }
 
+.tracklistName {
+  background-color: rgb(5, 5, 127);
+  color: white;
+
+}
+
+.SaveToSpotify {
+  margin: 2rem;
+  background-color: rgb(108, 88, 2);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.artistPar {
+  
+}
+
+.titlePar {
+  
+}
